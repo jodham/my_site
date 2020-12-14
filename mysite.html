@@ -5,16 +5,28 @@
 	<title>jodhamwanjala</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="mysite.css">
+	<script type="text/javascript" src="mysite.js"></script>
 </head>
 <body>
+
 	<!---------------------------------navigation bar -------------------->
 <nav> 
+	<span onclick="openNav()" id="openbtn"><img src="pics/bars.png"></span>
 	<li><a href="mysite.html#skills">skills</a></li>
 	<li><a href="mysite.html#projects">projects</a></li>
 	<li><a href="mysite.html#about">about</a></li>
-    <li><a href="mysite.html#home">home</a></li>
-<div id="siteName">Jodham</div>
+    <li><a href="#">home</a></li>
+<div id="siteName"><label>Jodham</label></div>
 </nav>
+<!---------------------------------sliding-navigation-bar -------------------->
+<div id="side_nav" class="side_nav">
+	<a href="Javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<li><a href="#">home</a></li>
+	<li><a href="mysite.html#about">about</a></li>
+	<li><a href="mysite.html#projects">projects</a></li>
+	<li><a href="mysite.html#skills">skills</a></li>
+</div>
+<!----x----------------sliding-navigation-bar ----------x---------->
 <!-------------------------x-----------navigation bar---------x-------------->
 <div class="content_holder"></div>
 <!---------------------------------home page-------------------->
