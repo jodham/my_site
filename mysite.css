@@ -28,9 +28,10 @@ body{
 #side_nav a:hover{
 	color: #f1f1f1;
 }
-span{
+span
+{
 	float: right;
-	margin-right: 10px;
+	margin-right: 2px;
 }
 span img{
 	width: 50px;
@@ -76,13 +77,6 @@ nav{
 	background: #151B54;
 	top: 0;
 	line-height: 80px;
-}
-nav #siteName{
-	width: 50px;
-	height: 50px;
-	margin-left: 0;
-	background: white;
-	border-radius: 8px;
 }
 nav li {
 	float: right;
@@ -161,7 +155,7 @@ nav li a{
 	width: 100%;
 	height: 330px;
 	background: #5E5A80;
-	padding: 10px;
+	padding: 5px;
 }
 #profile_details{
 	width: 160px;
@@ -199,12 +193,12 @@ label{
 	background: #5E5A80;
 	border: 2px;
 	border-style: outset;
+	padding: 3px;
 }
 #about p{
 	color: #fff;
 	font-family: verdana;
 	letter-spacing: 1px;
-	padding: 8px;
 }
 
 /*--------------------x-------------about-----------x---------*/
@@ -212,9 +206,37 @@ label{
 /*---------------------------------projects----------------------------*/
 #projects{
 	width: 100%;
-	height: 400px;
+	height: auto;
 	background: #5E5A80;
 	border-style: outset;
+	display: inline-flex;
+}
+.firstProject{
+	width: 30%;
+	height: 100%;
+	background: #fff;
+	border-radius: 8px;
+	border: 2px solid #000;
+	padding: 2px;
+}
+.firstProject img{
+	width: 100%;
+	height: 200px;
+}
+.firstProject label{
+	color: #000;
+}
+@media(max-width: 500px){
+	#projects{
+		width: 100%;
+		height: 500px;
+		display: inline-block;
+	}
+	.firstProject{
+		width: 100%;
+		height: 500px;
+	}
+
 }
 /*-----------------x-----------------projects----------x--------------------*/
 /*----------------------------------skills------------------------------*/
