@@ -281,9 +281,25 @@ label{
 	border-bottom-left-radius: 10px;
 }
 .html-progress-bar{
-	width: 33%;
+	width: 13.58%;
 	float: left;
 }
+.Css-progress-bar{
+	width: 31.6%;
+	float: left;
+	}
+.Python-progress-bar{
+	width: 25.77%;
+	float: left;
+	}
+.Java-progress-bar{
+	width: 8%;
+	float: left;
+	}
+.Javascript-progress-bar{
+	width: 2.1%;
+	float: left;
+	}
 /*---------------------x-------------skills----------------x--------------*/
 /*----------------------------------footer------------------------------*/
 #footer{
