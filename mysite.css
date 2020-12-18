@@ -266,7 +266,7 @@ label{
 }
 }
 .skill-level-overlay{
-	width: 100%;
+	width: 50%;
 	height: 250px;
 	float: left;
 	background: #5E5A80;
@@ -337,6 +337,7 @@ label{
 	height: 180px;
 	background: #111;
 	opacity: 0.5;
+	padding-left: 10px;
 }
 .social-icons{
 	width: 100%;
@@ -347,7 +348,7 @@ label{
 .social-icons label{
 	color: white;
 	font-size: 14px;
-	
+
 }
 .copy-right{
 	width: 100%;
