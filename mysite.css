@@ -334,15 +334,20 @@ label{
 }
 .findme{
 	width: 100%;
-	height: 250px;
+	height: 180px;
 	background: #111;
 	opacity: 0.5;
 }
 .social-icons{
 	width: 100%;
-	height: 100px;
+	height: 180px;
 	background: #111;
 	opacity: 0.6;
+}
+.social-icons label{
+	color: white;
+	font-size: 14px;
+	
 }
 .copy-right{
 	width: 100%;
@@ -353,6 +358,10 @@ label{
 .copy-right label{
 	font-size: 13px;
 	font-weight: bold;
+	color: white;
+}
+.iconz{
+	text-align: center;
 	color: white;
 }
 /*---------------------x-------------footer----------------x--------------*/
