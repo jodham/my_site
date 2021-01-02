@@ -77,6 +77,13 @@ nav ul li a:hover
 	bottom: 0;
 	right: 100px;
 }
+.img_box img{
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+}
 /*-------------------------------side-navigation bar------------------------*/
 
 /*-----------------x--------------navigation bar------------x-------------*/
